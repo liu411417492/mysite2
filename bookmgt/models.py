@@ -9,7 +9,7 @@ class Author(models.Model):
     country = models.CharField(max_length = 30)
     def __unicode__(self):
     	return self.Name
-
+#adsf
 class Book(models.Model):
 	ISBN = models.IntegerField(primary_key = True)
 	Title = models.CharField(max_length = 30)

@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login,logout
 import datetime
 import time
-
+#afdsf
 class BF(forms.Form):
 	ISBN = forms.IntegerField()
 	Title = forms.CharField(max_length = 30)
